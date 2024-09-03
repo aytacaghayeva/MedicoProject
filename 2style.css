@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    position: relative;
+}
+.fixedBtn{
+    cursor: pointer;
+    background-color: #01a882;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 30px;
+}
+
+.background img {
+    width: 100%;
+    height: 700px;
+}
+
+.background {
+    position: relative;
+    border-image: fill 0 linear-gradient(#0001, #000);
+}
+
+.right span {
+    color: orange;
+}
+
+.joy {
+    font-size: 170px;
+}
+
+.right {
+    width: 390px;
+    text-align: end;
+    position: absolute;
+    right: 15%;
+    bottom: 25px;
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+}
+
+.medlogo {
+    width: 200px;
+    height: 50px;
+}
+
+.contact a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact i {
+    font-size: 13px;
+}
+
+.item:hover {
+    color: rgb(23, 138, 100);
+}
+
+.items {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.whiteBtn {
+    background-color: white;
+    border: 2px solid #070a65;
+    font-weight: 700;
+    padding-inline: 25px;
+    padding-block: 9px;
+    margin-right: 10px;
+}
+
+.whiteBtn:hover {
+    background-color: #070a65;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out 0.2s;
+}
+
+.greenBtn {
+    background-color: #01a882;
+    border: 1px solid #01a882;
+    color: white;
+    font-weight: 700;
+    padding-inline: 25px;
+    padding-block: 10px;
+}
+
+.greenBtn:hover {
+    background-color: #070a65;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out 0.2s;
+}
+
+.centerPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.centerPart p {
+    width: 790px;
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.centerPart span {
+    font-weight: 600;
+}
+
+.donate {
+    margin-top: 25px;
+    background-color: #01a882;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #01a882;
+    cursor: pointer;
+}
+
+.donate:hover {
+    transform: translateZ(0);
+    background-color: #4169e1;
+    border: 1px solid #4169e1;
+    transition: all .3s linear
+}
+
+.article1 img {
+    width: 900px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.article {
+    width: 950px;
+    height: 700px;
+    border: 1px solid #F2E5D5;
+    padding-block: 20px;
+    background-color: #F2E5D5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16%;
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+}
+
+.article button {
+    background-color: #01a882;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-block: 10px;
+    padding-inline: 30px;
+    border: 1px solid #01a882;
+    cursor: pointer;
+    z-index: 11111;
+}
+
+.volunteer {
+    margin-block: 40px;
+    font-size: 20px;
+    width: 500px;
+}
+
+
+.article1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 30px;
+}
+
+.thirdPart {
+    text-align: center;
+    padding-block: 30px;
+    font-weight: 700;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+    padding-right: 35px;
+}
+
+.where {
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+}
+
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 100%;
+}
+iframe{
+    width: 700px;
+    height: 400px;
+}
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F2E5D5;
+    background-color: #F2E5D5;
+    padding-block: 40px;
+    font-size: 18px;
+}
+.spotlight p{
+    padding-block: 20px;
+}
+.mikeImage img {
+    width: 500px;
+    height: 500px;
+    border: 1px solid transparent;
+    border-radius: 300px;
+}
+.spotlight h1{
+    margin-bottom: 40px;
+}
+
+.spot {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+.blueBack{
+    background-color: #070a65;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+.green{
+    background-color: #01a882;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-block: 18px;
+    padding-inline: 30px;
+    border: 1px solid #01a882;
+    cursor: pointer;
+}
+.blueBack h1{
+    font-size: 35px;
+}
+.diff{
+    background-image: url(https://medico.org/wp-content/uploads/2022/04/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.diff h1{
+    font-size: 60px;
+}
+.diff p{
+    width: 700px;
+    font-size: 22px;
+    text-align: center;
+    padding-block: 20px;
+}
+.goldBtn{
+    padding-block: 15px;
+    padding-inline: 30px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.goldBtn:hover{
+   cursor: pointer;
+   background-color: rgb(142, 92, 0);
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+    background-color: #01a882;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, .subs{
+    padding-block: 10px;
+    width: 600px;
+}
+.label{
+    margin-top: 20px;
+}
+.pad{
+    padding-block: 8px;
+}
+.subs{
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.subs:hover{
+    cursor: pointer;
+    background-color: rgb(142, 92, 0);
+ }
+ .final h1{
+    color: white;
+ }
+ input{
+    font-weight: 600;
+    font-size: 18px;
+ }
